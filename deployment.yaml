@@ -20,6 +20,10 @@ data:
           addons:
             upgrade:
               - fid_install
+        - version: 0.0.4
+          addons:
+            upgrade:
+              - fid_install
 kind: ConfigMap
 metadata:
   name: migration-config
