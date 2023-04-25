@@ -220,7 +220,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: odoo-fid.smoose.cloud
+  - host: odoo-fid.k8s.onestein.eu
     http:
       paths:
       - backend:
@@ -239,5 +239,5 @@ spec:
         pathType: ImplementationSpecific
   tls:
   - hosts:
-    - odoo-fid.smoose.cloud
+    - odoo-fid.k8s.onestein.eu
     secretName: odoo-fid-smoose-cloud-tls
